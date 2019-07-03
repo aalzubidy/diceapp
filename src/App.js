@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import Dice from './Dice';
+import RollDice from './RollDice';
 
 function App() {
   return (
     <div className="App">
-      <h1>Roll a Dice!</h1>
-      <Dice number="1"></Dice>
+      <RollDice />
     </div>
   );
 }

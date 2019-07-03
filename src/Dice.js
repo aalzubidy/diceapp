@@ -12,7 +12,7 @@ class Dice extends Component{
         };
         const classText = `fas fa-dice-${numberText[this.props.number]}`;
         return(
-            <div>
+            <div className='Dice'>
                 <i className={classText}></i>
             </div>
         );
